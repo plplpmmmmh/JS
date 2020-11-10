@@ -4,4 +4,4 @@
 [Script]
 
 
-SSID助手 = debug=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/util/Ssid.js,type=event,event-name=network-changed,control-api=true
+SSID助手 = debug=1,script-path=https://raw.githubusercontent.com/plplpmmmmh/JS/master/ssid.js,type=event,event-name=network-changed,control-api=true
