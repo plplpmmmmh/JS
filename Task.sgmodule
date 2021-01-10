@@ -1,4 +1,4 @@
-#!name=My iOS Tasks Module 2
+#!name=我的模块
 #!desc=iOS Tasks 模块配置
 
 [Script]
@@ -8,7 +8,6 @@ cron "45 4 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Qu
 
 # By zZPigle   GitHub：https://github.com/zZPiglet/Task/tree/master
 cron "0 9 8 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包
-cron "0 25 7 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay.js, tag=Alipay
 
 
 # By lxk0301   GitHub：https://github.com/lxk0301/scripts
@@ -38,7 +37,6 @@ cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_script
 京东点点券 = type=cron,cronexp="10 0,20 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_necklace.js
 
 # By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
-cron "15 0 * * *" ,timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=30, tag=东东
 
 
 # By chavyleung      GitHub：https://github.com/chavyleung/scripts
@@ -49,19 +47,12 @@ cron "40 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "10 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,tag=海底捞
 
 # Peng-YM  https://github.com/Peng-YM/QuanX/tree/master/Tasks
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js,tag=疫情日报
 
 # Sunert https://github.com/Sunert/Scripts/tree/master/Task
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/tvpreview.js, tag=节目预告
 cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js, tag=实时货币换算
 
 # iepngs https://raw.githubusercontent.com/iepngs/Script/master
-cron "1 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js, tag=叮咚农场
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/lxhealth/manual.js, tag=lxhealth
-
-
-# toulanboy  https://github.com/toulanboy/scripts
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒
 
 
 # dompling   https://github.com/dompling/Script
@@ -82,17 +73,6 @@ cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/S
 
 # yichahucha    https://github.com/yichahucha/surge/tree/master
 cron "11 7 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量
-
-
-# Dachaw  
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoVrumors.js,tag=疫情辟谣
-
-cron "5 8 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值
-
-
-
-# mw418  https://github.com/mw418/QuantumultX
-cron "5 8 * * *" script-path=https://raw.githubusercontent.com/mw418/QuantumultX/master/setu.js, tag=每日色图
 
 
 # yangtingxiao
