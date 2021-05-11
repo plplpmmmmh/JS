@@ -3,7 +3,7 @@ $(document).ready(function() {
       var seconds = new Date().getSeconds();
       var sdegree = seconds * 6;
       var srotate = "rotate(" + sdegree + "deg)";
-      $("#boxTwentyTwo, #secshad").css("-webkit-transform", srotate );
+      $("#boxForty, #secshad").css("-webkit-transform", srotate );
       }, 1000 );
 
       setInterval( function() {
@@ -11,13 +11,13 @@ $(document).ready(function() {
       var mins = new Date().getMinutes();
       var hdegree = hours * 30 + (mins / 2);
       var hrotate = "rotate(" + hdegree + "deg)";
-      $("#boxTwentyOne, #hourshad").css("-webkit-transform", hrotate );
+      $("#boxCircleTwo, #hourshad").css("-webkit-transform", hrotate );
       }, 1000 );
 
       setInterval( function() {
       var mins = new Date().getMinutes();
       var mdegree = mins * 6;
       var mrotate = "rotate(" + mdegree + "deg)";
-      $("#boxTwenty, #minshad").css("-webkit-transform", mrotate );
+      $("#boxCircleOne, #minshad").css("-webkit-transform", mrotate );
       }, 1000 );
 }); 
